@@ -11,8 +11,8 @@ import javax.servlet.RequestDispatcher;
 /**
  * Servlet Filter implementation class IPFilter
  */
-//@WebFilter("/IPFilter")//使用注解，配置过滤器名称、作用的URL地址、初始化参数等
-@WebFilter("/*")
+@WebFilter("/IPFilter")//使用注解，配置过滤器名称、作用的URL地址、初始化参数等
+//@WebFilter("/*")
 public class IPFilter implements Filter //过滤器类必须实现Filter接口
 {
 
